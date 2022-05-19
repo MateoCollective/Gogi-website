@@ -1,0 +1,58 @@
+/*======================
+    404 page
+=======================*/
+
+ @font-face /*perintah untuk memanggil font eksternal*/
+
+  {
+
+    font-family: 'Nexa'; /*memberikan nama bebas untuk font*/
+    src: url('Nexa/Nexa.otf');
+  }
+.page_404{ padding:40px 0; background:#2E3142; font-family: 'Nexa', serif;
+}
+
+.page_404  img{ width:100%;}
+
+.four_zero_four_bg{
+
+	width: 90px;
+
+    
+    background-position: center;
+    height: 90px;
+    border-radius: 5%;
+  margin: 20px 10px 0px;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+ }
+ 
+ 
+ .four_zero_four_bg h1{
+ font-size:80px;
+ color: #fff;
+ }
+ 
+  .four_zero_four_bg h3{
+			 font-size:80px;
+			 color: #fff;
+			 }
+			 
+			 .link_404{			 
+	color: #fff;
+    padding: 10px 20px;
+    background: #5C44FC;
+    border-radius: 5px;
+    margin: 20px 0;
+    display: inline-block;}
+	.contant_box_404{ margin-top: 100px; margin-bottom: 100px;}
+	.contant_box_404 p{ color: #fff;}
+	.contant_box_404 h3{ color: #fff;}
